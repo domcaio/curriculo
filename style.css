@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: #3498db;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container principal */
+#dadosp, #formacao, #experiencia, #cursos, #idioma, #habilidades {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo específico para seções */
+#dadosp {
+    text-align: center;
+}
+
+#dadosp p {
+    font-size: 1.1em;
+}
+
+#formacao p, #experiencia p, #cursos p, #idioma p, #habilidades p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Destaques */
+strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilo para o footer (caso você adicione algo no futuro) */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #3498db;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+i {
+    margin-right: 8px;
+    color: #3498db;
+}
